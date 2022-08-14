@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="intro bg-dark pt-5 pb-5">
+    <div class="container-md">
+      <div class="intro__inner d-flex flex-column justify-content-center align-items-center mt-5">
+        <h1 class="intro__title text-success mt-5 mb-3">
+          Please, enter only number!!!
+        </h1>
+        
+        <form class="form d-flex w-25  flex-column align-items-center" action="" method="get">
+          <label class="label mb-5 w-100">  
+            <input type="number" class="input w-100" placeholder="Temperature C*" aria-describedby="addon-wrapping" autocomplete="off" required>
+          </label>
+
+          <input class="form-check-rain" type="checkbox" id="flexCheckDefault" value="raining">
+            
+          <label class="form-check-label mb-3 text-white mt-2" for="flexCheckDefault">Raining</label>
+
+            
+          <input class="form-check-gym" type="checkbox" value="gym" id="flexCheckChecked">
+            
+          <label class="form-check-label text-white mt-2" for="flexCheckChecked">Gym</label>
+
+          <button class="btn btn-submit btn-primary mt-3" type="submit">
+            Submit
+          </button>
+
+          <button class="btn btn-danger btn-cancel mt-3" type="reset">
+            Cancel
+          </button>
+        </form>
+
+        <div class="result-box text-success d-flex mt-4 justify-content-between align-items-center">
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/script.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
